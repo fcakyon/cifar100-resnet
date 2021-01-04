@@ -1,0 +1,14 @@
+name: cifarresnet
+channels:
+  - conda-forge
+  - pytorch
+  - anaconda
+dependencies:
+  - python=3.8
+  - pytorch::pytorch=1.7.1
+  - pytorch::torchvision=0.8.2
+  - anaconda::cudatoolkit=11.1
+  - pip:
+    - numpy==1.19.2
+    - matplotlib==3.3.3
+    - jupyter==1.0.0
