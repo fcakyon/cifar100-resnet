@@ -4,12 +4,12 @@
 This repo provides training and evaluation scripts for CIFAR100 with ResNet backbones. %60 percent accuracy can be obtained with default training parameters.
 
 ## Usage
-- Clone
+- Clone:
 ```bash
-git clone https://github.com/fcakyon/cifar100-resnet
+git clone https://github.com/fcakyon/cifar100-resnet.git
 ```
 
-- Prepare conda environment
+- Prepare conda environment:
 ```bash
 conda env create -f environment.yml
 ```
@@ -18,12 +18,12 @@ conda env create -f environment.yml
 conda activate cifarresnet
 ```
 
-- Train
+- Train:
 ```bash
 python main.py --arch resnet32 --save-dir checkpoints/
 ```
 
-- Evaluate
+- Evaluate:
 ```bash
 python main.py --evaluate checkpoints/resnet32_final.th
 ```
