@@ -3,7 +3,7 @@
 
 This repo provides training and evaluation scripts for CIFAR100 with ResNet backbones. 60% accuracy can be obtained with default training parameters.
 
-Check [the notebook](<https://github.com/fcakyon/cifar100-resnet/notebook/CIFAR-100 Resnet.ipynb>) for a demo of the submodules used in this repo.
+Check [the notebook](<https://github.com/fcakyon/cifar100-resnet/tree/main/notebooknotebook/CIFAR-100 Resnet.ipynb>) for a demo of the submodules used in this repo.
 
 ## Usage
 - Clone:
